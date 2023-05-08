@@ -1,0 +1,837 @@
+.root {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    1fr minmax(0, var(--plsmc-wide-chunk)) var(--plsmc-viewport-gap)
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    var(--plsmc-viewport-gap) minmax(0, var(--plsmc-wide-chunk)) 1fr;
+  padding: 0px;
+}
+:where(.root > *) {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  :where(.root > *) {
+    grid-column: 4;
+  }
+}
+.desktop1 {
+  background: rgba(0, 0, 0, 1);
+  width: 1440px;
+  height: 4096px;
+  display: block;
+  overflow: hidden;
+}
+.freeBox__sCp {
+  width: 1381px;
+  height: 815px;
+  display: block;
+  position: absolute;
+  top: -183px;
+  left: 200px;
+}
+.text__ofMnr {
+  display: block;
+  font-size: 128px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 497px;
+  left: 0px;
+}
+.imAkshay {
+  display: block;
+  font-size: 96px;
+  font-family: "Chonburi";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 143px;
+  position: absolute;
+  top: 627px;
+  left: 5px;
+}
+.bcaGraduatedAndUiuxDesigner {
+  display: block;
+  font-size: 36px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 772px;
+  left: 5px;
+}
+.svg__cvIqk {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ff9d56;
+  width: 380px;
+  height: 388px;
+  display: block;
+  top: 0px;
+  left: 1001px;
+}
+.logo {
+  width: 308px;
+  height: 77px;
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: 67px;
+}
+.text__kX6E {
+  display: block;
+  font-size: undefinedpx;
+  font-family: "Chonburi";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 308px;
+}
+.navbar {
+  width: 896px;
+  height: 1290px;
+  display: block;
+  position: absolute;
+  top: 59px;
+  left: 804px;
+}
+.frame1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+}
+.frame1 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 50px);
+  width: calc(100% + 50px);
+}
+.frame1 > :global(.__wab_flex-container) > *,
+.frame1 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame1 > :global(.__wab_flex-container) > picture > img,
+.frame1
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 50px;
+}
+.frame1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text___4XmUf {
+  display: block;
+  font-size: 28px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.text__iiR4I {
+  display: block;
+  font-size: 28px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.text__qsMh {
+  display: block;
+  font-size: 28px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.text__mgIkv {
+  display: block;
+  font-size: 28px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.svg__c0Qk {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ff9d56;
+  box-shadow: inset 41px 41px 105px 0px rgba(0, 0, 0, 0.25);
+  width: 844px;
+  height: 810px;
+  display: block;
+  top: 480px;
+  left: 52px;
+}
+.rectangle1 {
+  background: url("./images/rectangle1.png") center center / cover no-repeat;
+  width: 527px;
+  height: 701px;
+  display: block;
+  position: absolute;
+  top: 129px;
+  right: 369px;
+}
+.button {
+  width: 316px;
+  height: 83px;
+  display: block;
+  position: absolute;
+  top: 696px;
+  left: 205px;
+}
+.frame2 {
+  background: rgba(255, 107, 0, 1);
+  width: 316px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+  border-radius: 20px;
+  padding: 20px;
+}
+.frame2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.frame2 > :global(.__wab_flex-container) > *,
+.frame2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame2 > :global(.__wab_flex-container) > picture > img,
+.frame2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.frame2 {
+  background: rgba(255, 107, 0, 1);
+  width: 316px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 20px;
+  padding: 20px;
+}
+.text___1Ei4D {
+  display: block;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 272px;
+  flex-shrink: 0;
+}
+.portfolio {
+  width: 1440px;
+  height: 1024px;
+  display: block;
+  position: absolute;
+  top: 1024px;
+  left: 0px;
+}
+.desktop2 {
+  background: rgba(41, 41, 41, 1);
+  width: 1440px;
+  height: 1024px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.text2 {
+  width: 1381px;
+  height: 815px;
+  display: block;
+  position: absolute;
+  top: -183px;
+  left: 200px;
+}
+.text___3T6Hq {
+  display: block;
+  font-size: 128px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 497px;
+  left: 0px;
+}
+.imAkshay2 {
+  display: block;
+  font-size: 96px;
+  font-family: "Chonburi";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 143px;
+  position: absolute;
+  top: 627px;
+  left: 5px;
+}
+.bcaGraduatedAndUiuxDesigner2 {
+  display: block;
+  font-size: 36px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 772px;
+  left: 5px;
+}
+.svg__lcDTp {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ff9d56;
+  width: 380px;
+  height: 388px;
+  display: block;
+  top: 0px;
+  left: 1001px;
+}
+.logo2 {
+  width: 308px;
+  height: 77px;
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: 67px;
+}
+.text__kpuEd {
+  display: block;
+  font-size: undefinedpx;
+  font-family: "Chonburi";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 308px;
+}
+.logo3 {
+  width: 361px;
+  height: 86px;
+  display: block;
+  position: absolute;
+  top: 69px;
+  left: 539px;
+}
+.text__kaZjX {
+  display: block;
+  font-size: 64px;
+  text-decoration-line: underline;
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 361px;
+}
+.svg___6MmHq {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ff9d56;
+  width: 844px;
+  height: 810px;
+  display: block;
+  top: 539px;
+  left: 856px;
+}
+.button2 {
+  width: 316px;
+  height: 83px;
+  display: block;
+  position: absolute;
+  top: 696px;
+  left: 205px;
+}
+.frame3 {
+  background: rgba(255, 107, 0, 1);
+  width: 316px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+  border-radius: 20px;
+  padding: 20px;
+}
+.frame3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.frame3 > :global(.__wab_flex-container) > *,
+.frame3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame3 > :global(.__wab_flex-container) > picture > img,
+.frame3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.frame3 {
+  background: rgba(255, 107, 0, 1);
+  width: 316px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 20px;
+  padding: 20px;
+}
+.text___9UmLw {
+  display: block;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 272px;
+  flex-shrink: 0;
+}
+.portfolio2 {
+  width: 1440px;
+  height: 1024px;
+  display: block;
+  position: absolute;
+  top: 2048px;
+  left: 0px;
+}
+.desktop3 {
+  background: rgba(0, 0, 0, 1);
+  width: 1440px;
+  height: 1024px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.text3 {
+  width: 1381px;
+  height: 815px;
+  display: block;
+  position: absolute;
+  top: -183px;
+  left: 200px;
+}
+.text__a2Ez8 {
+  display: block;
+  font-size: 128px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 497px;
+  left: 0px;
+}
+.imAkshay3 {
+  display: block;
+  font-size: 96px;
+  font-family: "Chonburi";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 143px;
+  position: absolute;
+  top: 627px;
+  left: 5px;
+}
+.bcaGraduatedAndUiuxDesigner3 {
+  display: block;
+  font-size: 36px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 772px;
+  left: 5px;
+}
+.svg__foMm7 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ff9d56;
+  width: 380px;
+  height: 388px;
+  display: block;
+  top: 0px;
+  left: 1001px;
+}
+.logo4 {
+  width: 308px;
+  height: 77px;
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: 67px;
+}
+.text___33V3 {
+  display: block;
+  font-size: undefinedpx;
+  font-family: "Chonburi";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 308px;
+}
+.logo5 {
+  width: 361px;
+  height: 86px;
+  display: block;
+  position: absolute;
+  top: 69px;
+  left: 539px;
+}
+.text___0Irim {
+  display: block;
+  font-size: 64px;
+  text-decoration-line: underline;
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 361px;
+}
+.svg___7L8Zm {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ff9d56;
+  width: 844px;
+  height: 810px;
+  display: block;
+  top: 539px;
+  left: 856px;
+}
+.button3 {
+  width: 316px;
+  height: 83px;
+  display: block;
+  position: absolute;
+  top: 696px;
+  left: 205px;
+}
+.frame4 {
+  background: rgba(255, 107, 0, 1);
+  width: 316px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+  border-radius: 20px;
+  padding: 20px;
+}
+.frame4 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.frame4 > :global(.__wab_flex-container) > *,
+.frame4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame4 > :global(.__wab_flex-container) > picture > img,
+.frame4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.frame4 {
+  background: rgba(255, 107, 0, 1);
+  width: 316px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 20px;
+  padding: 20px;
+}
+.text__hkfch {
+  display: block;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 272px;
+  flex-shrink: 0;
+}
+.portfolio3 {
+  width: 1440px;
+  height: 1024px;
+  display: block;
+  position: absolute;
+  top: 3072px;
+  left: 0px;
+}
+.desktop4 {
+  background: rgba(41, 41, 41, 1);
+  width: 1440px;
+  height: 1024px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.text4 {
+  width: 1381px;
+  height: 815px;
+  display: block;
+  position: absolute;
+  top: -183px;
+  left: 200px;
+}
+.text__lq9F {
+  display: block;
+  font-size: 128px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 497px;
+  left: 0px;
+}
+.imAkshay4 {
+  display: block;
+  font-size: 96px;
+  font-family: "Chonburi";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 143px;
+  position: absolute;
+  top: 627px;
+  left: 5px;
+}
+.bcaGraduatedAndUiuxDesigner4 {
+  display: block;
+  font-size: 36px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 772px;
+  left: 5px;
+}
+.svg__fsbvu {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ff9d56;
+  width: 380px;
+  height: 388px;
+  display: block;
+  top: 0px;
+  left: 1001px;
+}
+.logo6 {
+  width: 308px;
+  height: 77px;
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: 67px;
+}
+.text__hgmr3 {
+  display: block;
+  font-size: undefinedpx;
+  font-family: "Chonburi";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 308px;
+}
+.logo7 {
+  width: 466px;
+  height: 86px;
+  display: block;
+  position: absolute;
+  top: 69px;
+  left: 487px;
+}
+.text__oo8Lz {
+  display: block;
+  font-size: 64px;
+  text-decoration-line: underline;
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 466px;
+}
+.svg__xInGx {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ff9d56;
+  width: 844px;
+  height: 810px;
+  display: block;
+  top: 539px;
+  left: 856px;
+}
+.button4 {
+  width: 316px;
+  height: 83px;
+  display: block;
+  position: absolute;
+  top: 696px;
+  left: 205px;
+}
+.frame5 {
+  background: rgba(255, 107, 0, 1);
+  width: 316px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+  border-radius: 20px;
+  padding: 20px;
+}
+.frame5 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.frame5 > :global(.__wab_flex-container) > *,
+.frame5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5 > :global(.__wab_flex-container) > picture > img,
+.frame5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+}
+.frame5 {
+  background: rgba(255, 107, 0, 1);
+  width: 316px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 20px;
+  padding: 20px;
+}
+.text__vQqsh {
+  display: block;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 272px;
+  flex-shrink: 0;
+}
